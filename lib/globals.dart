@@ -1,0 +1,20 @@
+import 'package:redditech/postDefinition.dart';
+
+late String userName;
+late String userPhoto;
+late String userProfileDesc;
+bool userBanned = false;
+List<Post> generalFeedHot = [];
+List<Post> subredditFeedHot = [];
+List<Post> generalFeedRising = [];
+List<Post> subredditFeedRising = [];
+List<Post> generalFeedNew = [];
+List<Post> subredditFeedNew = [];
+String incomingMessage = "";
+String clicktracking = "";
+String followers = "";
+String region = "";
+String votes = "";
+String beta = "";
+List subbSubreddits = [];
+int subIndex = 0;
